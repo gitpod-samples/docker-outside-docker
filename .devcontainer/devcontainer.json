@@ -1,0 +1,15 @@
+{
+	"name": "Gitpod",
+	"build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+    },
+	// Mount the Docker socket from the host to enable Docker-in-Docker functionality
+    "mounts": [
+        {
+            "source": "/var/run/docker.sock",
+            "target": "/var/run/docker.sock",
+            "type": "bind"
+        }
+    ]
+}
