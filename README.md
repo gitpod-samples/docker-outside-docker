@@ -26,7 +26,7 @@ graph TD
             Term[Terminal Access]
         end
     end
-
+```
 ---
 
 ## Using Docker-in-Docker (DinD)
