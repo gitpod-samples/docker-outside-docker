@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
+# Standardized to approved base image (ubuntu:22.04 instead of ubuntu-24.04 devcontainer)
+FROM ubuntu:22.04
 
 # use this Dockerfile to install additional tools you might need, e.g.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
